@@ -19,6 +19,7 @@
   </li>
 </ul>-->
 <div class="col-sm-6 col-sm-auto">
+  <app-table-searcher [allSettings]="tableSearcher"></app-table-searcher>
   <table width="100%" class="table table-striped table-responsive"  *ngIf="paginator.data">
     <tr>
       <td>#</td>

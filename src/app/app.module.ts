@@ -7,6 +7,7 @@ import {LarangPaginatorModule} from 'larang-paginator';
 import {PaginatorInterceptorService} from "./paginator-interceptor.service";
 import {HttpModule} from "@angular/http";
 import {HTTP_INTERCEPTORS} from "@angular/common/http";
+import {AngularTableSearcherModule} from "angular-table-searcher";
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import {HTTP_INTERCEPTORS} from "@angular/common/http";
   imports: [
     BrowserModule,
     HttpModule,
+    AngularTableSearcherModule.forRoot(),
     LarangPaginatorModule.forRoot()
   ],
   providers: [
