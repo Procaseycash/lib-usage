@@ -12,7 +12,7 @@ export class AppComponent implements OnInit, AfterViewInit {
   title = 'app';
   public paginator = {
     path: 'http://localhost:8088/api/organizations',
-    limit: 5,
+    limit: 20,
     perNav: 5,
     data: null,
     from: 'list_organizations'
