@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.3.
 
+Contains usage of library i developed for angular... currently larang-paginator and angular-table-searcher
+
 You can download for angular 4 and 5 from release note. all v4 are angular 4 and v5 for angular 5
 
 ## Development server
